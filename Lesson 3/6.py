@@ -1,7 +1,7 @@
 def int_func(word):
     new_word = ''
     for char in word:
-        if chr == ' ':
+        if char == ' ':
             continue
         else:
             new_word += chr(ord(char) - 32)
