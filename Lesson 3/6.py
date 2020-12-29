@@ -1,10 +1,13 @@
 def int_func(word):
     new_word = ''
-    for index in range(0, len(word)):
-        if index == 0:
-            new_word += word[index].upper()
+    for char in word:
+        if chr == ' ':
+            continue
         else:
-            new_word += word[index]
+            new_word += chr(ord(char) - 32)
+            break
+    for i in range(1, len(word)):
+        new_word += word[i]
     return new_word
 
 
