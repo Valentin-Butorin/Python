@@ -1,11 +1,8 @@
 def int_func(word):
     new_word = ''
     for char in word:
-        if char == ' ':
-            continue
-        else:
-            new_word += chr(ord(char) - 32)
-            break
+        new_word += chr(ord(char) - 32)
+        break
     for i in range(1, len(word)):
         new_word += word[i]
     return new_word
