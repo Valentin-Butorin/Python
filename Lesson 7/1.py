@@ -3,7 +3,7 @@ class Matrix:
         self.matrix = matrix
 
     def __str__(self):
-        return str(self.matrix)
+        return return '\n'.join(' '.join([str(el) for el in line]) for line in self.matrix)
 
     def __add__(self, other):
         def gen(s):
